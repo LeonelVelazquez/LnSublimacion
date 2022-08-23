@@ -185,7 +185,7 @@ section {
 
 }
 
-@media (maxm-width: 400.10px) {
+@media (maxm-width: 576.10px) {
     .cuerpo-tarjeta {
         width: 100%;
         height: 353px;

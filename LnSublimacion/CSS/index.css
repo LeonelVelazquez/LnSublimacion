@@ -3,8 +3,13 @@
     margin: 0;
 }
 
+.container-fluid a{
+   color: black;
+}
+
 
 .hero {
+   
     flex: auto;
     width: 100%;
     height: 550px;
@@ -17,6 +22,8 @@
     justify-content: center;
     align-items: center;
 }
+
+
 
 .animate__animated.animate__pulse {
     --animate-duration: 1s;
@@ -92,6 +99,11 @@
         grid-template-rows: repeat(3, 2fr);
     }
 
+
+    .hero img {
+        width: 1300px;
+        padding-top: 30px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -119,9 +131,17 @@
     }
 
     img {
-        width: 100%;
+        width: 800px;
         height: 100%;
     }
+
+    .hero{
+        padding-top: 70px;
+        width: 500px;
+        height: 300px;
+    }
+   
+    
 }
 
 @media (maxm-width: 400.10px) {

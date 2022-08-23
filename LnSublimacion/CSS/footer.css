@@ -1,0 +1,110 @@
+* {
+
+    margin: 0;
+    padding: 0%;
+    box-sizing: 0;
+
+}
+
+
+h1 {
+    margin-top: 50px;
+}
+
+ul {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    size: 20px;
+    margin-top: 20PX;
+}
+
+body {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: white;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 250px;
+    min-height: 100vh;
+   
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(134, 199, 241);
+    height: auto;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 9px;
+    color: white;
+    z-index: index 1;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.socials {
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 0 3px 0;
+}
+
+.socials li {
+
+    margin: 5px;
+    padding-right: 25px;
+    padding-left: 1px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: rgb(31, 88, 173);
+    transition: all .4s ease;
+
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+
+.socials a i {
+    font-size: 30px;
+    transition: all .5s;
+
+}
+
+.footer-botoom {
+    background: rgb(129, 185, 248);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer-botoom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-botoom {
+    text-transform: uppercase;
+    opacity: .5;
+    font-weight: 200;
+}
+
+.box-model {
+    width: 100px;
+    height: 100;
+    background-color: rgb(184, 184, 184);
+}

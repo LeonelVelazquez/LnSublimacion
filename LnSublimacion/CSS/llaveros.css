@@ -37,7 +37,6 @@ li {
 
 
 
-
 .descripcion a {
     color: white;
     background-color: rgb(72, 119, 190);
@@ -61,7 +60,7 @@ li {
 .borde {
     margin-top: 10px;
     width: 560px;
-    height: 780px;
+    height: 760px;
     background-color: white;
     border-radius: 5px;
 }

@@ -25,6 +25,7 @@ h2 {
     margin-top: 30px;
     font-size: 20px;
     flex-direction: row;
+    padding-bottom: 150px;
 
 }
 
@@ -37,8 +38,57 @@ li {
 
 }
 
+.inicio a{
+    text-decoration: none;
+    list-style: none;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid > article img {
+  max-width: 100%;
+}
+
+.grid .text {
+  padding: 20px;
+  text-align: center;
+}
+
+.grid .text h3 {
+  font-size: 1.4rem;
+  font-family: 'Fredoka One', cursive;
+}
+
+.grid .text p {
+  font-size: 0.9rem;
+}
+
+.grid .text p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #555;
+  font-family: 'Courgette', cursive;
+}
+
+
+/*
 .contenido-caja {
     flex-wrap: wrap;
 }
@@ -48,13 +98,7 @@ li {
     height: 200px;
 }
 
-.inicio a{
-    text-decoration: none;
-    list-style: none;
-    font-size: x-large;
-    color: rgb(255, 255, 255);
-    
-}
+
 
 /*
 .inicio a {
@@ -66,7 +110,7 @@ li {
     background-color: rgb(111, 176, 236);
     padding: 8px;
 }
-*/
+
 .descripcion a {
     text-decoration: none;
     font-size: larger;
@@ -152,7 +196,7 @@ section {
     margin: 5px;
     gap: 15px;
 }
-
+*/
 @media (min-width:1024px) {
     .cuerpo-tarjeta {
         width: 100%;

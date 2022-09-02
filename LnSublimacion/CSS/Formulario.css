@@ -13,11 +13,20 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.Enviar a{
+    text-decoration: none;
+    list-style: none;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    
+}
+
 .container{
     width: 500px;
 }
 
 .container-carousel{
+    padding-top: 20px;
     width: 500px;
     height: 500px;
     margin-left: auto;

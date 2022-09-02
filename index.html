@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./LnSublimacion/CSS/menu.css" />
     <link rel="stylesheet" href="./LnSublimacion/CSS/index.css" />
     <link rel="stylesheet" href="./LnSublimacion/CSS/vista.css">
+    <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css%22%3E" />
     <link rel="icon" type="image/jpg" href="./LnSublimacion/IMG/FavIcon.png" />
@@ -24,8 +25,13 @@
     <section class=" menu">
 
         <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #e3f2fd;">
-
+           
             <div class="container-fluid">
+                <div class="logo">
+                    <a class="navbar-brand" href="#">
+                      <img src="./LnSublimacion/IMG/FavIcon.png" alt="" width="30" height="24">
+                    </a>
+                  </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -33,17 +39,27 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-0">
-                        <li class="nav-item">
+                        <li class="nav-item1">
                             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/PRODUCTOS.html">Productos</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link" href="TazaOdioL.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Formulario.html">Formulario</a>
+                        </li>
+
+
+                        <!--
+                            <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Ver mas
                             </a>
+                           
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="https://www.instagram.com/ln_sublimacion/">Redes</a>
                                 </li>
@@ -53,7 +69,7 @@
                                 </li>
                                 <li><a class="dropdown-item" href="./remeras.html">OFERTAS!</a></li>
                             </ul>
-                            <!--disabled
+                            disabled
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled">Disabled</a>

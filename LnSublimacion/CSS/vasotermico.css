@@ -27,7 +27,8 @@ li {
     padding: 10px;
 }
 
-.inicio a {
+.inicio {
+    padding-bottom: 20px;
     text-decoration: none;
     list-style: none;
     font-size: large;
@@ -38,7 +39,7 @@ li {
 
 
 
-.descripcion a {
+.descripcion a{
     color: white;
     background-color: rgb(72, 119, 190);
     padding: 8px;
@@ -69,26 +70,55 @@ li {
     font-family: Arial, Helvetica, sans-serif
 }
 
-@media (min-width:1024px) {}
+@media (min-width:1024px) {
+
+
+    .hero img {
+        width: 1300px;
+        padding-top: 30px;
+    }
+
+}
 
 @media (min-width: 768px) {
 
-    img {
-        width: 100%;
+    .gallery-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 2fr);
     }
+
+
 }
 
 @media (max-width: 575.98px) {
+    .gallery-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 2fr);
+    }
 
     img {
-        width: 100%;
-        height: 500px;
+        width: 400px;
+        height: 100%;
     }
 
-    .borde {
-        width: 100%;
-        height: 780px;
+
+   
+
+
+}
+
+@media (maxm-width: 400.10px) {
+    .gallery-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 2fr);
     }
+
+    img {
+        flex: auto;
+    }
+
+  
+
 }
 
 body {

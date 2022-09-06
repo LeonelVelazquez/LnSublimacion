@@ -6,27 +6,29 @@
 body {
     background-color: rgb(194, 236, 255);
 }
-.inicio a{
+
+.inicio a {
     text-decoration: none;
     list-style: none;
     font-size: x-large;
     color: rgb(255, 255, 255);
 }
 
-.Enviar a{
+.Enviar a {
     text-decoration: none;
     list-style: none;
     font-size: x-large;
     color: rgb(255, 255, 255);
-    
-}
 
+}
 .container{
-    width: 500px;
+   align-items:center ;
+   width: 400px;
 }
 
-.container-carousel{
-    padding-top: 20px;
+.container-carousel {
+    padding: 20px;
+    
     width: 500px;
     height: 500px;
     margin-left: auto;

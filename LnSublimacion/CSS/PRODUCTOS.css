@@ -3,31 +3,11 @@
     margin: 0;
 }
 
+
 h1 {
-    width: 200px;
-    height: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    background-color: rgb(0, 0, 109);
-    height: auto;
-    width: 100%;
-    color: white;
-
-
+    padding-top: 100px;
 }
 
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: auto;
-    width: 10%;
-    padding-top: 10px;
-    margin-bottom: -100px;
-    margin-top: 30px;
-    font-size: 20px;
-    flex-direction: row;
-    padding-bottom: 150px;
-
-}
 
 li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -38,53 +18,57 @@ li {
 
 }
 
-.inicio a{
+.inicio a {
     text-decoration: none;
     list-style: none;
     font-size: x-large;
     color: rgb(255, 255, 255);
-    
+
 }
 
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.google.com/specimen/Questrial');
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  grid-gap: 20px;
-  align-items: stretch;
+    padding: 20px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
 }
 
-.grid > article {
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+.grid>article {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
 }
 
-.grid > article img {
-  max-width: 100%;
+.grid>article img {
+    max-width: 100%;
+    border-radius: 2px;
 }
 
 .grid .text {
-  padding: 20px;
-  text-align: center;
+    padding: 20px;
+    text-align: center;
 }
 
 .grid .text h3 {
-  font-size: 1.4rem;
-  font-family: 'Fredoka One', cursive;
+    font-size: 1.4rem;
+    font-family: 'Questrial', cursive;
 }
 
 .grid .text p {
-  font-size: 0.9rem;
+    font-size: 0.9rem;
 }
 
 .grid .text p a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #555;
-  font-family: 'Courgette', cursive;
+    text-decoration: none;
+    font-weight: bold;
+    color: #555;
+    font-family: 'Courgette', cursive;
 }
 
 

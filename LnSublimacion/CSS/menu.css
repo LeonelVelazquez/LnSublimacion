@@ -2,9 +2,11 @@
     padding: 0;
     margin: 0;
 }
+
 .menu {
     z-index: 1;
 }
+
 /*
 .menu a {
     text-decoration: none;

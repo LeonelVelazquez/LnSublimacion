@@ -27,12 +27,12 @@ li {
     padding: 10px;
 }
 
-.inicio a{
+.inicio a {
     text-decoration: none;
     list-style: none;
     font-size: large;
     color: rgb(255, 255, 255);
-    
+
 }
 
 
@@ -58,7 +58,7 @@ li {
 }
 
 .borde {
-    margin-top: 10px;
+ margin-top: 20px;
     width: 560px;
     height: 850px;
     background-color: white;
